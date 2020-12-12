@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial;
+  } 
+ 
+  
+.hfive {
+  font-weight: 200;
+  color: grey;
+  display: inline;
+  float: right;
+  padding: 20px;
+  margin-right: 39px;
+}
+
+.container {
+border: 1px solid rgb(165, 165, 165);
+width: 100%;
+margin-top: 100px;
+height: 1100px;
+}
+
+.logo {
+  width:25%;
+  margin-top:20px;
+  margin-bottom: 40px;
+}
+
+.bkndBoxLeft {
+  width: 75%;
+  height: 230px;
+  background-color: rgb(224, 224, 224);
+  float: left;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.bkndBoxRight {
+  width: 22%;
+  height: 230px;
+  display: inline;
+  padding: 15px;
+  float: right;
+  border: 3px grey;
+  background-color: beige;
+  margin-right: 10px;
+  
+}
+
+.choiceHead1 {
+font-size: 28px;
+font: Helvetica medium;
+font-weight: 600;
+color: white;
+ position: absolute;
+  top: 18px;
+  left: 16px;
+}
+
+.choicehead2 {
+  font-size: 28px;
+  font: Helvetica medium;
+  font-weight: 600;
+  color: white;
+   position: absolute;
+    top: 18px;
+    left: 16px;
+
+}
+
+.subHead {
+  position: absolute;
+  top: 64px;
+  left:16px;
+  color: white;
+}
+.bigNumber {
+font-size: 85px;
+font-weight: 500;
+margin-top: 0px;
+}
+
+.programImg {
+  width: 75%;
+  height: 230px;
+  float: left;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.relaxBox {
+  position: relative;
+}
+
+.strenuousBox {
+  position: relative;
+}
