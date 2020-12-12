@@ -57,17 +57,6 @@ color: white;
   left: 16px;
 }
 
-.choicehead2 {
-  font-size: 28px;
-  font: Helvetica medium;
-  font-weight: 600;
-  color: white;
-   position: absolute;
-    top: 18px;
-    left: 16px;
-
-}
-
 .subHead {
   position: absolute;
   top: 64px;
@@ -83,7 +72,6 @@ margin-top: 0px;
 .programImg {
   width: 75%;
   height: 230px;
-  float: left;
   margin-bottom: 25px;
   position: relative;
 }
