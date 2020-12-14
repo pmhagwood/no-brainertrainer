@@ -31,3 +31,4 @@ function videoSearch(searchTerms, returnResults) {
 }
 
 videoSearch(searchTerms, 10);
+
