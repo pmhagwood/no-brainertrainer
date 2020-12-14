@@ -3,7 +3,6 @@ body {
     font-family: Arial;
   } 
  
-  
 .hfive {
   font-weight: 200;
   color: grey;
@@ -16,23 +15,20 @@ body {
 .container {
 border: 1px solid rgb(165, 165, 165);
 width: 100%;
-margin-top: 100px;
+
 height: 1100px;
 }
+.container2 {
+ width: 100%;
+ margin-top: 30px;
+ text-align: center;
+ color:rgb(78, 78, 78)
+  }
 
 .logo {
   width:25%;
   margin-top:20px;
   margin-bottom: 40px;
-}
-
-.bkndBoxLeft {
-  width: 75%;
-  height: 230px;
-  background-color: rgb(224, 224, 224);
-  float: left;
-  padding: 10px;
-  margin-bottom: 25px;
 }
 
 .bkndBoxRight {
@@ -57,17 +53,6 @@ color: white;
   left: 16px;
 }
 
-.choicehead2 {
-  font-size: 28px;
-  font: Helvetica medium;
-  font-weight: 600;
-  color: white;
-   position: absolute;
-    top: 18px;
-    left: 16px;
-
-}
-
 .subHead {
   position: absolute;
   top: 64px;
@@ -83,7 +68,6 @@ margin-top: 0px;
 .programImg {
   width: 75%;
   height: 230px;
-  float: left;
   margin-bottom: 25px;
   position: relative;
 }
@@ -92,6 +76,10 @@ margin-top: 0px;
   position: relative;
 }
 
-.strenuousBox {
-  position: relative;
+.programHead {
+font-weight: 800;
+font-size: 50px;
+letter-spacing: -3px;
+margin-top: 60px;
+padding: 20px;
 }

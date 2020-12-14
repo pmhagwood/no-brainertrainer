@@ -10,44 +10,98 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href='./stylesheets/programstyle.css'>
+    <link href="./stylesheets/style.css" rel="stylesheet">
 
     <title>Programs</title>
 </head>
 
 <body>
+    <div class="container2">
+    <h1 class="programHead">How do you feel like working out today?</h1>
+</div>
     <div class="container">
+        
        
-        <div> <img src="oneLineLogo.jpg" class=logo>
+        <div> <img src="./assets/OneLineLogo.jpg" class=logo>
         <h5 class="hfive" id="username">USERNAME</h5></div> 
 
+
         <div class="relaxBox">
-        <img src="./manintree.jpg" alt="Man sleeping in a tree" class="programImg">
+        <img src="./assets/manintree.jpg" alt="Man sleeping in a tree" class="programImg">
         <p class= "choiceHead1" id="relaxing1"></p>
         <p class="subHead">Get ready to relax</p>
+        
+        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
+        <p class="bigNumber" id="bigNum1">0</p>
+        <p style="font-size: .75vw">REWARD AT 5 DAYS</p>
         </div>
-
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p><p class="bigNumber" id="bigNum1">0</p><p style="font-size: 1vw">REWARD AT 5 DAYS</p>
-        </div>
-    
-
-        <div class="strenuousBox">
-        <img src="./strenuous1.jpg" alt="Man sleeping in a tree" class="programImg">
-        <p class= "choiceHead2" id="strenuous1"></p><p class="subHead">It's time to get up and move</p>
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p><p class="bigNumber" id="bigNum2">1</p><p style="font-size: 1vw">REWARD AT 5 DAYS</p></div>
-        </div>
-
-        <div class="bkndBoxLeft" id="box3"><p class= "choiceHead" id="insane1"></p><p class="subHead">Are you ready for this? No really...are you?</p></div>
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p><p class="bigNumber" id="bigNum3">1</p><p style="font-size: 1vw">REWARD AT 5 DAYS</p>
-        </div>
-            
-        <div class="bkndBoxLeft" id="box4"><p class= "choiceHead" id="surprise1"></p><p class="subHead">What a rollercoaster...but hey thrills are what we do.</p></div>
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p><p class="bigNumber" id="bigNum4">2</p><p style="font-size: 1vw">REWARD AT 5 DAYS</p>
-        </div>
-
-    </div>
     </div>
 
+        <div class="relaxBox">
+        <img src="./assets/strenuous2.jpg" alt="Man on a childs scooter" class="programImg">
+        <p class= "choiceHead1" id="strenuous1"></p>
+        <p class="subHead">It's time to get up and move</p>
+        
+        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
+        <p class="bigNumber" id="bigNum1">1</p>
+        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+        </div>
+    </div>
+
+
+    <div class="relaxBox">
+        <img src="./assets/insane.jpg" alt="man doing crossfit ropes" class="programImg">
+        <p class= "choiceHead1" id="insane1"></p>
+        <p class="subHead">Are you ready for this? No really...are you?</p>
+        
+        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
+        <p class="bigNumber" id="bigNum1">3</p>
+        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+        </div>
+    </div>
+
+    <div class="relaxBox">
+        <img src="./assets/surprise1.jpg" alt="surprised woman" class="programImg">
+        <p class= "choiceHead1" id="surprise1"></p>
+        <p class="subHead">What a rollercoaster...but hey, thrills are what we do!</p>
+        
+        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
+        <p class="bigNumber" id="bigNum1">0</p>
+        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+        </div>
+    </div>
+
+    </div>
+    <br>
+    <footer>
+
+        <div class="row startbanner justify-content-md-center">
+            <div class="col-md-8">
+                <h4>TRY OUR NO BRAIN APPROACH FOR FREE</h4>
+                <p>Get started with any of our programs for free. Cancel anytime.</p>
+            </div>
+            <div class="col-md-4">
+                <button class="btn-accout">START YOUR FREE ACCOUNT</button>
+            </div>
+        </div>
+        <div class="row justify-content-md-center footerlinks">
+            <div class="col-md-2">
+                <p>FAQ</p>
+            </div>
+            <div class="col-md-2">
+                <p>CONTACT US</p>
+            </div>
+            <div class="col-md-2">
+                <p>TRAINER CREW</p>
+            </div>
+            <div class="col-md-2">
+                <p>SAFETY</p>
+            </div>
+        </div>
+        <div class="disclaimer">© 2020 No-Brainer Trainer. All Rights Reserved</div>
+
+    </footer>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
@@ -60,7 +114,9 @@
             crossorigin="anonymous"></script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="script.js"></script>
+        <script src="./js/programscript.js"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+
 </body>
 
 </html>
