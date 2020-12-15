@@ -5,6 +5,20 @@ form.login {
 
 /* ========== layout =========== */
 /* index.html content layout */
+.carousel {
+  background-color: black;
+}
+.carousel-item{
+  position: relative !important;
+}
+.black-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width:100%;
+  background: rgba(0,0,0,0.2);
+}
 .mainnav {
   padding-left: 20px;
 }
@@ -17,17 +31,27 @@ form.login {
   padding-top: 200px;
 }
 .btn-accout {
-  background-color: white;
+  background-color: rgb(1, 52, 96);
   padding: 10px 40px;
-  border: 2px solid rgb(193, 193, 193);
+  border: 2px solid rgb(1, 77, 143);
   border-radius: 10px 10px 10px 10px;
+  color: aliceblue;
 }
-.herocontent .btn-accout {
-  margin-top: 60px;
+.firstbtn {
+  margin-bottom: 60px;
+}
+
+.secondbtn {
+  margin-top: 30px;
+  background-color: rgb(77, 157, 226);
+  padding: 10px 40px;
+  border: 2px solid rgb(35, 76, 113);
+  border-radius: 10px 10px 10px 10px;
+  color: aliceblue;
 }
 
 .btn-accout:hover {
-  background-color: rgb(223, 223, 223);
+  background-color: rgb(27, 112, 186);
 }
 
 /* index section 2 layout */
@@ -36,12 +60,19 @@ form.login {
   text-align: center;
 }
 .programscontent p {
-  padding: 20px 200px 60px 200px;
+  padding: 20px 200px 20px 200px;
   line-height: 1.8em;
 }
+
 .imageholder {
   height: 180px;
+  width: 300px;
   background-color: rgb(226, 226, 226);
+}
+
+.imageholder img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .programsblocks {
@@ -50,10 +81,21 @@ form.login {
 
 /* index testimonial section */
 .testimonialblock {
-  background-color: rgb(226, 226, 226);
   height: 400px;
   position: relative;
   margin: 0px 20px;
+}
+.testimonialblock:nth-child(1){
+  background-color: rgb(99, 175, 54);
+  color: aliceblue;
+}
+.testimonialblock:nth-child(2){
+  background-color: rgb(3, 95, 128);
+  color: aliceblue;
+}
+.testimonialblock:nth-child(3){
+  background-color: rgb(62, 31, 135);
+  color: aliceblue;
 }
 .testimonialcontent {
   position: absolute;
@@ -71,7 +113,8 @@ form.login {
 }
 
 footer {
-  background-color: rgb(226, 226, 226);
+  background-color:rgb(17, 17, 17);
+  color:seashell;
 }
 .footerlinks {
   padding: 20px 0px
@@ -106,6 +149,8 @@ footer {
 .programblock .programtitle {
   margin-top: 20px;
 }
+
+
 
 /* index testimonial blocks */
 .testimonialcontent {
@@ -172,15 +217,7 @@ footer {
   font-size: .8em;
 }
 
-@media only screen and (max-width: 700px) {
-  .bkndBoxRight2 {
-    height: 250px;
-    padding: 15px;
-    border: 1px solid #000; 
-    background-color: rgb(250, 245, 225);
-    margin-top:10px;
-  }
-}
+
 
 .relaxblock {
   background-image: url("../assets/manintree.jpg");
@@ -297,4 +334,45 @@ padding: 20px;
 
 .programsblocks h2 {
   margin-bottom: 20px;
+}
+
+/* ====== responsive ========= */
+
+@media only screen and (max-width: 700px) {
+  .bkndBoxRight2 {
+    height: 250px;
+    padding: 15px;
+    border: 1px solid #000; 
+    background-color: rgb(250, 245, 225);
+    margin-top:10px;
+  }
+  .programscontent p {
+    padding: 20px 10px 20px 10px;
+    line-height: 1.5em;
+  }
+  .programscontent h2 {
+    font-size: 1.5em;
+    padding: 0px 5px;
+  }
+  .programscontent p {
+    font-size: .9em;
+  }
+  .programblock {
+    width:300px;
+  }
+  .programsblocks {
+    margin: 0px 15%;
+  }
+  .testimonialblock {
+    margin: 20px 0px;
+  }
+  .footerbanner h4 {
+font-size: 1.5em;
+  }
+  .footerbanner p {
+    font-size: .9em;
+  }
+  .footerlinks {
+    margin: 0px auto;
+  }
 }

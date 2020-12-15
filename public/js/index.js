@@ -7,4 +7,8 @@ $(document).ready(() => {
         //this will redirect us in same window
         document.location.href = "/signup";
     });
+
+    $('.carousel').carousel({
+        interval: 5000
+    });
 });
