@@ -131,3 +131,170 @@ footer {
 .signupsubhead {
   font-size: 1.5em;
 }
+
+
+/* ====== program and workout pages */
+
+
+.hfive {
+  font-weight: 200;
+  color: grey;
+  display: inline;
+  float: right;
+  padding: 20px;
+  margin-right: 39px;
+}
+.logo {
+  width:25%;
+}
+
+.bkndBoxRight {
+  width: 22%;
+  height: 230px;
+  display: inline;
+  padding: 15px;
+  float: right;
+  border: 3px grey;
+  background-color: beige;
+  margin-right: 10px;
+  
+}
+
+/* VARIATION CSS */
+.bkndBoxRight2 {
+  height: 250px;
+  padding: 15px;
+  border: 1px solid #000; 
+  background-color: rgb(250, 245, 225);
+}
+
+.rewardline {
+  font-size: .8em;
+}
+
+@media only screen and (max-width: 700px) {
+  .bkndBoxRight2 {
+    height: 250px;
+    padding: 15px;
+    border: 1px solid #000; 
+    background-color: rgb(250, 245, 225);
+    margin-top:10px;
+  }
+}
+
+.relaxblock {
+  background-image: url("../assets/manintree.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.strenblock {
+  background-image: url("../assets/strenuous2.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.insaneblock {
+  background-image: url("../assets/insane.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+.surpriseblock {
+  background-image: url("../assets/surprise1.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+/* VARIATION ENDS */
+
+
+.choiceHead1 {
+font-size: 28px;
+font: Helvetica medium;
+font-weight: 600;
+color: white;
+ position: absolute;
+  top: 18px;
+  left: 16px;
+}
+
+.subHead {
+  position: absolute;
+  top: 64px;
+  left:16px;
+  color: white;
+}
+.bigNumber {
+font-size: 85px;
+font-weight: 500;
+margin-top: 0px;
+}
+
+.programImg {
+  width: 75%;
+  height: 230px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.relaxBox {
+  position: relative;
+}
+
+.programHead {
+font-weight: 800;
+font-size: 50px;
+letter-spacing: -3px;
+margin-top: 60px;
+padding: 20px;
+}
+.youtuberow {
+  margin: 40px 0px 20px 0px;
+}
+#youtubeDiv {
+ width: 90%;
+ height: 600px;
+ margin: 0px auto;
+  background-color: rgb(245, 245, 245);
+}
+
+#youtubeDiv p {
+  text-align: center;
+  color: rgb(198, 198, 198);
+  margin-top: 250px
+}
+
+.usercontent {
+  width: 90%;
+}
+
+.programdetails h1 {
+  font-size: 32px;
+}
+
+.programdetails p {
+  font-size: 21px;
+}
+
+.markcomplete {
+  text-align: right;
+  vertical-align:middle;
+  font-size: 21px;
+}
+.recommend {
+  text-align: right;
+}
+#programselection {
+  margin-top: 60px;
+}
+
+.programsblocks h2 {
+  margin-bottom: 20px;
+}
