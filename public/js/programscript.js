@@ -27,6 +27,11 @@ $(document).ready(() => {
     //does a GET request to figure out which user is logged in and updates the HTML on the page
     $.get("/api/Users/me").then(data => {
         $("#username").text(data.user);
+        $("#relaxingNum").text(data.relax);
+        $("#strenuousNum").text(data.strenuous);
+        $("#insaneNum").text(data.nightmare);
+        $("#surpriseNum").text(data.anythingGoes);
         console.log(data); 
       });
   });
+
