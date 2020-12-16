@@ -45,4 +45,4 @@ function onEnd() {
 }   
 
 }
-pwnedCheck("Password123");
+pwnedCheck("pasword123");
