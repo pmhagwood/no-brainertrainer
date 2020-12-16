@@ -4,6 +4,7 @@ $(document).ready(() => {
   const emailInput = $("input#email-input");
   const passwordInput = $("input#password-input");
 
+
   // When the form is submitted, we validate there's an email and password entered
   loginForm.on("submit", event => {
     event.preventDefault();
@@ -11,6 +12,11 @@ $(document).ready(() => {
       email: emailInput.val().trim(),
       password: passwordInput.val().trim()
     };
+    
+    // Store
+    localStorage.setItem("email", userData.email);
+    // Retrieve
+    // document.getElementById("result").innerHTML = localStorage.getItem("lastname");
 
     if (!userData.email || !userData.password) {
       return;
