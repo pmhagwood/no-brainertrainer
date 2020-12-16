@@ -190,7 +190,7 @@ footer {
   margin-right: 39px;
 }
 .logo {
-  width:25%;
+  width:20%;
 }
 
 .bkndBoxRight {
@@ -380,3 +380,33 @@ font-size: 1.5em;
     margin: 0px auto;
   }
 }
+
+/* //-------Crew Page ---------// */
+
+.card-text {
+  font-size: 12px;
+  line-height: 3px;
+}
+
+.card-title {
+  font-size: 20px;
+  Margin-bottom: 10px;
+}
+
+.teamPics {
+  width: 100px;
+  margin-right: 15px;
+  float: left;
+}
+
+.programHead1 {
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: -3px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  }
+
+  .card-body {
+    margin-bottom: 25px;
+  }
