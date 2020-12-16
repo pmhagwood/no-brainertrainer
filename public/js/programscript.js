@@ -1,3 +1,4 @@
+
 $(document).ready(() => {
     const relaxingArray = ['SUBLIME', 'LAH-DE-DAH', 'HO-HUM', '2LB. WEIGHT', 'LACKLUSTER', 'CREAM PUFF', 'FEATHERWEIGHT', 'WELL WITHIN MY COMFORT ZONE'];
     const strenuousArray = ['READY TO RUMBLE', 'LETS DO THIS!', 'CHARGED UP', 'STOKED', 'UP AND AT EM', 'THE FORCE IS WITH ME'];
@@ -21,6 +22,7 @@ $(document).ready(() => {
         console.log("its working!")
     };
     window.onload();
+
 
     //does a GET request to figure out which user is logged in and updates the HTML on the page
     $.get("/api/Users/me").then(data => {
