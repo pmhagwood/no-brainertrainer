@@ -41,3 +41,4 @@ var config = {
 // Hell Level: PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G
 // Nightmare Level: PLIZGnF3VDshTqZYOvg3cVdOkM7oVtOdA1
 // Normal Level: PLIZGnF3VDshRjjivPc_D30JMiFVKlMYHU
+// Surprise Me: PLIZGnF3VDshSJhVpChUbMyh4pktQvyL6s
