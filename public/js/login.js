@@ -3,6 +3,19 @@ $(document).ready(() => {
   const loginForm = $("form.login");
   const emailInput = $("input#email-input");
   const passwordInput = $("input#password-input");
+  const images = [
+    "assets/images/signup/meditative-mountains-650x800.jpg",
+    "assets/images/signup/sun-worship.jpg",
+    "assets/images/signup/liftingdude-650x800.jpg",
+    "assets/images/signup/weights-650x800.jpg"
+  ];
+  const size = images.length;
+  $('.signupimageholder img').each(function() {
+    let x = Math.floor(size * Math.random());
+    if ($(this).hasClass("logimage")){
+      $(this).attr("src", images[x]);
+    }
+  })
 
 
   // When the form is submitted, we validate there's an email and password entered
