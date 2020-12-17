@@ -22,12 +22,12 @@ var config = {
           let videoThumbnail = JSON.stringify(response.data.items[i].snippet.thumbnails.standard.url);
           let videoId = JSON.stringify(response.data.items[i].snippet.resourceId.videoId);
           let embedCode = `<iframe width="830" height="467" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-          playlistData.push([videoTitle, videoThumbnail, videoId]);
+          playlistData.push([videoTitle, videoThumbnail, videoId, embedCode]);
         //for testing
-        //   console.log(`The video title is: ${videoTitle}`);
-        //   console.log(`The video thumbnail URL is: ${videoThumbnail}`);
-        //   console.log(`The video ID: ${videoId}`);
-        //   console.log(`The video embedCodeIs: ${embedCode}`);
+          console.log(`The video title is: ${videoTitle}`);
+          console.log(`The video thumbnail URL is: ${videoThumbnail}`);
+          console.log(`The video ID: ${videoId}`);
+          console.log(`The video embedCodeIs: ${embedCode}`);
       }
       // console.log(playlistData[0]);
     })
