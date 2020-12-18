@@ -304,18 +304,16 @@ margin-top: 60px;
 padding: 20px;
 }
 .youtuberow {
-  margin: 40px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 #youtubeDiv {
  width: 90%;
  height: 600px;
  margin: 0px auto;
-  background-color: rgb(245, 245, 245);
 }
 
 #youtubeDiv p {
   text-align: center;
-  color: rgb(198, 198, 198);
   margin-top: 250px
 }
 
