@@ -417,3 +417,20 @@ font-size: 1.5em;
   .card-body {
     margin-bottom: 25px;
   }
+
+  
+
+  .youTubeRelax {
+    display: block;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .happyUser {
+
+    max-height: 175px;
+    max-width: 175px;
+    background-color: rgb(226, 226, 226);
+    overflow: hidden;
+    margin: auto;
+  }
