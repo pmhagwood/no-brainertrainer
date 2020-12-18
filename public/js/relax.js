@@ -39,7 +39,7 @@ $(document).ready(() => {
          relaxnum = data.relax
          userid = data.id
          $("#relaxNum").text(relaxnum);
-         $("#username").text(data.user);
+         $("#username").text("Welcome " + data.user);
           console.log("This is the number ",  relaxnum); 
           return relaxnum
       });
