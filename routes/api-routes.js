@@ -2,7 +2,6 @@
 const db = require("../models");
 const passport = require("../config/passport");
 
-
 module.exports = function(app) {
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
@@ -11,7 +10,7 @@ module.exports = function(app) {
     // Sending back a password, even a hashed password, isn't a good idea
     res.json({
       email: req.user.email,
-      id: req.user.id
+      id: req.user.id,
     });
   });
 
@@ -22,12 +21,12 @@ module.exports = function(app) {
     db.User.create({
       email: req.body.email,
       user: req.body.user,
-      password: req.body.password
+      password: req.body.password,
     })
       .then(() => {
         res.redirect(307, "/api/login");
       })
-      .catch(err => {
+      .catch((err) => {
         res.status(401).json(err);
       });
   });
@@ -37,7 +36,6 @@ module.exports = function(app) {
     req.logout();
     res.redirect("/");
   });
-
 
   // Route for getting some data about our user to be used client side
   app.get("/api/user_data", (req, res) => {
@@ -49,30 +47,35 @@ module.exports = function(app) {
       // Sending back a password, even a hashed password, isn't a good idea
       res.json({
         username: req.users.user,
-        id: req.users.id
+        id: req.users.id,
       });
     }
   });
 
+  app.get("/api/Users/me", (req, res) => {
+    res.json(req.user);
+  });
 
-app.get("/api/Users/me", (req, res) => {
-  res.json (
-    req.user
-  )
-}) 
+  app.get("/api/Relaxes", (req, res) => {
+    db.Relax.findOne({
+      where: {
+        id: Math.floor(Math.random() * 10 + 1),
+      },
+    }).then((result) => {
+      res.json(result);
+    });
+  });
 
-app.post('/api/completeWorkout/:userId', (req, res) => {
-  console.log('hit!!!!!')
-  console.log(req.body)
-  const { columnToUpdate } = req.body
-  db.User.update({ relax: req.body.relax }, { where: { id: req.params.userId }}).then(res => {
-    
-    console.log('user updated')
-  })
-  res.send('success')
-})
+  app.post("/api/completeWorkout/:userId", (req, res) => {
+    console.log("hit!!!!!");
+    console.log(req.body);
+    const { columnToUpdate } = req.body;
+    db.User.update(
+      { relax: req.body.relax },
+      { where: { id: req.params.userId } }
+    ).then((res) => {
+      console.log("user updated");
+    });
+    res.send("success");
+  });
 };
-
-
-
-
