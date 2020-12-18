@@ -1,12 +1,12 @@
 $(document).ready(() => {
-    $(".btn-accout").click(function (event) {
-        event.preventDefault();
-        console.log("Mark complete");
-        // const go_to_url = $("/signup").find(":selected").val();
+    // $(".btn-accout").click(function (event) {
+    //     event.preventDefault();
+    //     console.log("Mark complete");
+    //     // const go_to_url = $("/signup").find(":selected").val();
 
-        //this will redirect us in same window
-        document.location.href = "/program";
-    });
+    //     //this will redirect us in same window
+    //     document.location.href = "/program";
+    // });
 
    let relaxnum 
    let userid
@@ -49,20 +49,25 @@ $(document).ready(() => {
 
 
 
-
+    // function updateDiv()
+    // { 
+    //     $("#relaxBox").load;
+    // }
  
     $("#completeBtn").click(function (event) {
         event.preventDefault();
-         console.log("relaxnum is ", relaxnum) 
-         relaxnum++ 
-         console.log("relaxnum added ", relaxnum) 
+         console.log("relaxnuxxxm is ", relaxnum); 
+         relaxnum++; 
+         console.log("relaxnum added ", relaxnum); 
         $.ajax({
             type: 'POST',
             url: '/api/completeWorkout/' +userid,
             data: {relax: relaxnum}
         }).then(res => {
-            console.log('Response back from server ', res)
-        })
+            console.log('Response back from server ', res);
+            document.location.href = "/program";
+
+        }); 
         // const go_to_url = $("/signup").find(":selected").val();
 
         //this will redirect us in same window
