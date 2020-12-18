@@ -1,0 +1,183 @@
+// 20201217140327
+// https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G&key=AIzaSyBKq1KwRsUkwxH1dwG6ar-EVPfeBG3zQm8
+
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "wDEf5VqDv-fgkH7LYAmuMPR79S4",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fQG3oAr1hkM9e2MJHgScuFN5Xjo",
+      "id": "UExJWkduRjNWRHNoUWJUSUd1UWlqeDRQbVFWZ2ttVHE3Ry41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2020-12-16T01:23:40Z",
+        "channelId": "",
+        "title": "Do This Routine Every Morning To Get Shredded",
+        "description": "join Chris Heria as he shows you what to do Every Morning To Get Shredded. Doing This Routine Every Morning will have you building muscle and burning fat with only your body weight no need for weights or a gym. \n\nGet the Music in the video made by Chris Heria:\n https://soundcloud.com/chrisheria\n\nFOLLOW CHRIS HERIA\nIG: @chrisheria  https://www.instagram.com/chrisheria/\nVLOG YT CHANNEL: https://youtube.com/CHRISHERIA\n\nTake your training to the next level with a Heria weight vest:\nhttps://chrisheria.com\n\nFollow THENX on Instagram: \n@thenx  https://www.instagram.com/thenx/\n\nJoin our Events: http://thenx.com/blog/events/\nHeria Apparel here: https://chrisheria.com/\nBECOME A THENX MEMBER: https://thenx.com/\nDOWNLOAD THENX Iphone App: https://goo.gl/Qk235s \nDOWNLOAD ANDROID App: https://goo.gl/kcRBpL\nSHOP THENX: https://thenx.com/shop\nVIEW OUR EVENT CALENDAR: http://thenx.com/blog/events/\nTHENX BLOG: http://thenx.com/blog/\n\nThe BEST Calisthenics App, secret techniques, programs, and step by step guided tutorials tested by thousands of people to reach their goals, with the most simplistic systematic approach to learning any calisthenics move such as the Handstand, Muscle Up, Planche, with ease.\nAnd it's all IN HERE\nhttps://WWW.THENX.COM",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z_zHF-UwO5A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z_zHF-UwO5A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z_zHF-UwO5A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Z_zHF-UwO5A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Z_zHF-UwO5A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "",
+        "playlistId": "PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Z_zHF-UwO5A"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wL1KEnG3F0d5M4rns3pk6enOh-E",
+      "id": "UExJWkduRjNWRHNoUWJUSUd1UWlqeDRQbVFWZ2ttVHE3Ry4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2020-12-16T01:25:52Z",
+        "channelId": "",
+        "title": "The BEST HOME CHEST WORKOUT (NO EQUIPMENT NEEDED)",
+        "description": "Join Chris Heria as he shows you the best Home chest workout to achieve real results that you can do anywhere. You don't need any Equipment to do this workout.\n\nGet the Music in the video made by Chris Heria:\n https://soundcloud.com/chrisheria\n\nFOLLOW CHRIS HERIA\nIG: @chrisheria  https://www.instagram.com/chrisheria/\nVLOG YT CHANNEL: https://youtube.com/CHRISHERIA\n\nTake your training to the next level with a Heria weight vest:\nhttps://chrisheria.com\n\nFollow THENX on Instagram: \n@thenx  https://www.instagram.com/thenx/\n\nJoin our Events: http://thenx.com/blog/events/\nHeria Apparel here: https://chrisheria.com/\nBECOME A THENX MEMBER: https://thenx.com/\nDOWNLOAD THENX Iphone App: https://goo.gl/Qk235s \nDOWNLOAD ANDROID App: https://goo.gl/kcRBpL\nSHOP THENX: https://thenx.com/shop\nVIEW OUR EVENT CALENDAR: http://thenx.com/blog/events/\nTHENX BLOG: http://thenx.com/blog/\n\nThe BEST Calisthenics App, secret techniques, programs, and step by step guided tutorials tested by thousands of people to reach their goals, with the most simplistic systematic approach to learning any calisthenics move such as the Handstand, Muscle Up, Planche, with ease.\nAnd it's all IN HERE\nhttps://WWW.THENX.COM",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BkS1-El_WlE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BkS1-El_WlE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BkS1-El_WlE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BkS1-El_WlE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "",
+        "playlistId": "PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "BkS1-El_WlE"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "43kBWtC1LPKHK9LaTDSuBi06jNQ",
+      "id": "UExJWkduRjNWRHNoUWJUSUd1UWlqeDRQbVFWZ2ttVHE3Ry4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2020-12-16T01:26:13Z",
+        "channelId": "",
+        "title": "7 Minute Fat Burning Morning Routine You Can Do Everyday",
+        "description": "Watch as Chris Heria goes through a 7 Minute Fat Burning Routine You Can Do Everyday in the morning. Find this workout and more on the Heria Pro App become a member to start training like Chris Heria today.\n\nFind out How to start working out the best way for beginners with  Chris Heria and the Heria Pro App & for more workouts by Chris Heria visit heriapro.com and download the HERIA Pro App in the App Store!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bDjeRqqQu2A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bDjeRqqQu2A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bDjeRqqQu2A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bDjeRqqQu2A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bDjeRqqQu2A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "",
+        "playlistId": "PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bDjeRqqQu2A"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hjqdEcNNh6OCIO6Sozi6EL6y3Rg",
+      "id": "UExJWkduRjNWRHNoUWJUSUd1UWlqeDRQbVFWZ2ttVHE3Ry41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2020-12-16T01:26:28Z",
+        "channelId": "",
+        "title": "6 PACK ABS For Beginners You Can Do Anywhere",
+        "description": "6 PACK ABS workouts you can do anywhere if you are a beginner. Try these workouts when starting to build ABS!\n\nGet the Music in the video made by Chris Heria:\n https://soundcloud.com/chrisheria\n\nFOLLOW CHRIS HERIA\nIG: @chrisheria  https://www.instagram.com/chrisheria/\nVLOG YT CHANNEL: https://youtube.com/CHRISHERIA\n\nTake your training to the next level with a Heria weight vest:\nhttps://chrisheria.com\n\nFollow THENX on Instagram: \n@thenx  https://www.instagram.com/thenx/\n\nJoin our Events: http://thenx.com/blog/events/\nHeria Apparel here: https://chrisheria.com/\nBECOME A THENX MEMBER: https://thenx.com/\nDOWNLOAD THENX Iphone App: https://goo.gl/Qk235s \nDOWNLOAD ANDROID App: https://goo.gl/kcRBpL\nSHOP THENX: https://thenx.com/shop\nVIEW OUR EVENT CALENDAR: http://thenx.com/blog/events/\nTHENX BLOG: http://thenx.com/blog/\n\nThe BEST Calisthenics App, secret techniques, programs, and step by step guided tutorials tested by thousands of people to reach their goals, with the most simplistic systematic approach to learning any calisthenics move such as the Handstand, Muscle Up, Planche, with ease.\nAnd it's all IN HERE\nhttps://WWW.THENX.COM",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3p8EBPVZ2Iw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3p8EBPVZ2Iw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3p8EBPVZ2Iw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3p8EBPVZ2Iw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "",
+        "playlistId": "PLIZGnF3VDshQbTIGuQijx4PmQVgkmTq7G",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3p8EBPVZ2Iw"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 5
+  }
+}
