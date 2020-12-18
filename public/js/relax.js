@@ -54,24 +54,36 @@ $(document).ready(() => {
     //     $("#relaxBox").load;
     // }
  
+    // $("#completeBtn").click(function (event) {
+    //     event.preventDefault();
+    //      console.log("relaxnuxxxm is ", relaxnum); 
+    //      relaxnum++; 
+    //      console.log("relaxnum added ", relaxnum); 
+    //     $.ajax({
+    //         type: 'POST',
+    //         url: '/api/completeWorkout/' +userid,
+    //         data: {relax: relaxnum}
+    //     }).then(res => {
+    //         console.log('Response back from server ', res);
+    //         document.location.href = "/program";
+
+    //     }); 
+
+    // });
+
     $("#completeBtn").click(function (event) {
         event.preventDefault();
-         console.log("relaxnuxxxm is ", relaxnum); 
-         relaxnum++; 
-         console.log("relaxnum added ", relaxnum); 
+        relaxnum++;
+        //  console.log("relaxnum added ", relaxnum); 
         $.ajax({
             type: 'POST',
-            url: '/api/completeWorkout/' +userid,
-            data: {relax: relaxnum}
+            url: '/api/completeWorkout/' + userid,
+            data: { columnToUpdate: 'relax', valueToUpdateWith: relaxnum}
         }).then(res => {
-            console.log('Response back from server ', res);
+            // console.log('Response back from server ', res);
             document.location.href = "/program";
 
         }); 
-        // const go_to_url = $("/signup").find(":selected").val();
-
-        //this will redirect us in same window
-        //document.location.href = "/program";
     });
 
 });

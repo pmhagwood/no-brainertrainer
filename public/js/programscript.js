@@ -44,7 +44,7 @@ $(document).ready(() => {
 
   const surpriseArray = ["SURPRISE ME", "INTRIGUE ME", "OH BEHAVE!"];
 
-  window.onload = function() {
+  window.onload = function () {
     let relaxing =
       relaxingArray[Math.floor(Math.random() * relaxingArray.length)];
     console.log(relaxing);
@@ -64,15 +64,20 @@ $(document).ready(() => {
   };
   window.onload();
 
+  updateNums();
+
   //does a GET request to figure out which user is logged in and updates the HTML on the page
-  $.get("/api/Users/me").then((data) => {
-    $("#username").text(data.user);
-    $("#relaxingNum").text(data.relax);
-    $("#strenuousNum").text(data.strenuous);
-    $("#insaneNum").text(data.nightmare);
-    $("#surpriseNum").text(data.anythingGoes);
-    console.log(data);
-  });
+  function updateNums() {
+    $.get("/api/Users/me").then((data) => {
+      $("#username").text(data.user);
+      $("#relaxingNum").text(data.relax);
+      $("#strenuousNum").text(data.strenuous);
+      $("#insaneNum").text(data.nightmare);
+      $("#surpriseNum").text(data.anythingGoes);
+      // console.log(data);
+    });
+  }
+
 
   $.get("/api/Relaxes").then((data) => {
     $("#quote").text(data.quote);
