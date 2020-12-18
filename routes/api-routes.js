@@ -66,12 +66,25 @@ module.exports = function(app) {
     });
   });
 
+  // app.post("/api/completeWorkout/:userId", (req, res) => {
+  //   // console.log("hit!!!!!");
+  //   // console.log(req.body);
+  //   const { columnToUpdate } = req.body;
+  //   console.log("columntoupdate ", columnToUpdate)
+  //   db.User.update(
+  //     { relax: req.body.relax },
+  //     { where: { id: req.params.userId } }
+  //   ).then((res) => {
+  //     console.log("user updated");
+  //   });
+  //   res.send("success");
+  // });
+
   app.post("/api/completeWorkout/:userId", (req, res) => {
-    console.log("hit!!!!!");
-    console.log(req.body);
     const { columnToUpdate } = req.body;
+    console.log("columntoupdate ", columnToUpdate)
     db.User.update(
-      { relax: req.body.relax },
+      { [columnToUpdate]: req.body.valueToUpdateWith },
       { where: { id: req.params.userId } }
     ).then((res) => {
       console.log("user updated");

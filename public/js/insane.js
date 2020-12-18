@@ -1,29 +1,29 @@
 $(document).ready(() => {
 
-    let surpriseNum 
+    let nightmareNum 
     let userid
  
  
      //does a GET request to figure out which user is logged in and updates the HTML on the page
      $.get("/api/Users/me").then(data => {
          
-         surpriseNum = data.anythingGoes
+         nightmareNum = data.nightmare
           userid = data.id
-          $("#strenousNum").text(surpriseNum);
+          $("#nightmareNum").text(nightmareNum);
           $("#username").text("Welcome " + data.user);
-           console.log("This is the number ",  surpriseNum); 
-           return surpriseNum
+           console.log("This is the number ",  nightmareNum); 
+           return nightmareNum
        });
   
   
      $("#completeBtn").click(function (event) {
          event.preventDefault();
-         surpriseNum++; 
+         nightmareNum++; 
          //  console.log("relaxnum added ", relaxnum); 
          $.ajax({
              type: 'POST',
              url: '/api/completeWorkout/' + userid,
-             data: { columnToUpdate: 'anythingGoes', valueToUpdateWith: surpriseNum}
+             data: { columnToUpdate: 'nightmare', valueToUpdateWith: nightmareNum}
          }).then(res => {
              // console.log('Response back from server ', res);
              document.location.href = "/program";
