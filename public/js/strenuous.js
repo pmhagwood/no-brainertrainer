@@ -8,7 +8,7 @@ $(document).ready(() => {
     //     document.location.href = "/program";
     // });
 
-   let relaxnum 
+   let strenuousnum 
    let userid
 
 //  function processClick(obj) {
@@ -36,12 +36,12 @@ $(document).ready(() => {
     //does a GET request to figure out which user is logged in and updates the HTML on the page
     $.get("/api/Users/me").then(data => {
         
-         relaxnum = data.relax
+        strenuousnum = data.strenuous
          userid = data.id
-         $("#relaxNum").text(relaxnum);
+         $("#strenousNum").text(strenuousnum);
          $("#username").text("Welcome " + data.user);
-          console.log("This is the number ",  relaxnum); 
-          return relaxnum
+          console.log("This is the number ",  strenuousnum); 
+          return strenuousnum
       });
     // }
 
@@ -56,15 +56,15 @@ $(document).ready(() => {
  
     $("#completeBtn").click(function (event) {
         event.preventDefault();
-         console.log("relaxnuxxxm is ", relaxnum); 
-         relaxnum++; 
-         console.log("relaxnum added ", relaxnum); 
+        //  console.log("relaxnuxxxm is ", relaxnum); 
+        strenuousnum++; 
+        //  console.log("relaxnum added ", relaxnum); 
         $.ajax({
             type: 'POST',
             url: '/api/completeWorkout/' +userid,
-            data: {relax: relaxnum}
+            data: {strenuous: strenuousnum}
         }).then(res => {
-            console.log('Response back from server ', res);
+            // console.log('Response back from server ', res);
             document.location.href = "/program";
 
         }); 
