@@ -418,9 +418,19 @@ font-size: 1.5em;
     margin-bottom: 25px;
   }
 
-  .happyUser {
+  
+
+  .youTubeRelax {
     display: block;
-    margin-left: auto;
     margin-right: auto;
     width: 80%;
+  }
+
+  .happyUser {
+
+    max-height: 175px;
+    max-width: 175px;
+    background-color: rgb(226, 226, 226);
+    overflow: hidden;
+    margin: auto;
   }
