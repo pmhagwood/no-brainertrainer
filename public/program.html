@@ -1,39 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href='./stylesheets/programstyle.css'>
-    <link href="./stylesheets/style.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheets/programstyle.css" />
+    <link href="./stylesheets/style.css" rel="stylesheet" />
     <title>Programs</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <img src="./assets/OneLineLogo.jpg" class="logo d-inline-block align-top" alt="no-brainer logo">
-            <a class="navbar-brand" href="/logout">
-                Logout
-            </a>
-            <!-- <h5 class="hfive" id="username">USERNAME</h5> -->
-            <h5 class="member-name hfive" id="username"></h5>
-        </nav>
+      <nav class="navbar navbar-light bg-light">
+        <img
+          src="./assets/OneLineLogo.jpg"
+          class="logo d-inline-block align-top"
+          alt="no-brainer logo"
+        />
+        <a class="navbar-brand" href="/logout">
+          Logout
+        </a>
+        <!-- <h5 class="hfive" id="username">USERNAME</h5> -->
+        <h5 class="member-name hfive" id="username"></h5>
+      </nav>
     </header>
 
-<main>
+    <main>
+      <div class="container2">
+        <h1 class="programHead">How do you feel like working out today?</h1>
+      </div>
 
-<div class="container2">
-    <h1 class="programHead">How do you feel like working out today?</h1>
-</div>
-
-<!-- 
+      <!-- 
     <div class="row justify-content-md-center mb-4">
         <div class="col-md-8 relaxblock"> 
         <p class= "choiceHead1" id="relaxing1"></p>
@@ -92,100 +101,124 @@
 </div>
 
 </main> -->
-<div class="container">
-       
+      <div class="container">
+        <div class="relaxBox">
+          <a href="relax.html"
+            ><img
+              src="./assets/manintree.jpg"
+              alt="Man sleeping in a tree"
+              class="programImg"
+          /></a>
+          <p class="choiceHead1" id="relaxing1"></p>
+          <p class="subHead">Get ready to relax</p>
 
-    <div class="relaxBox">
-        <a href="relax.html"><img src="./assets/manintree.jpg" alt="Man sleeping in a tree" class="programImg"></a>
-        <p class= "choiceHead1" id="relaxing1"></p>
-        <p class="subHead">Get ready to relax</p>
-        
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
-        <p class="bigNumber" id="relaxingNum"></p>
-        <p style="font-size: .75vw">REWARD AT 5 DAYS</p>
+          <div class="bkndBoxRight">
+            <p style="font-size: 14px">Days Completed</p>
+            <p class="bigNumber" id="relaxingNum"></p>
+            <p style="font-size: .75vw">REWARD AT 5 DAYS</p>
+          </div>
         </div>
-    </div> 
 
-     <div class="relaxBox">
-            <a href="strenuous.html"><img src="./assets/strenuous2.jpg" alt="Man on a childs scooter" class="programImg"></a>
-        <p class= "choiceHead1" id="strenuous1"></p>
-        <p class="subHead">It's time to get up and move</p>
-        
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
-        <p class="bigNumber" id="strenuousNum"></p>
-        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+        <div class="relaxBox">
+          <a href="strenuous.html"
+            ><img
+              src="./assets/strenuous2.jpg"
+              alt="Man on a childs scooter"
+              class="programImg"
+          /></a>
+          <p class="choiceHead1" id="strenuous1"></p>
+          <p class="subHead">It's time to get up and move</p>
+
+          <div class="bkndBoxRight">
+            <p style="font-size: 14px">Days Completed</p>
+            <p class="bigNumber" id="strenuousNum"></p>
+            <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+          </div>
         </div>
-    </div>
 
+        <div class="relaxBox">
+          <a href="insane.html"
+            ><img
+              src="./assets/insane.jpg"
+              alt="man doing crossfit ropes"
+              class="programImg"
+          /></a>
+          <p class="choiceHead1" id="insane1"></p>
+          <p class="subHead">Are you ready for this? No really...are you?</p>
 
-    <div class="relaxBox">
-        <a href="insane.html"><img src="./assets/insane.jpg" alt="man doing crossfit ropes" class="programImg"></a>
-        <p class= "choiceHead1" id="insane1"></p>
-        <p class="subHead">Are you ready for this? No really...are you?</p>
-        
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
-        <p class="bigNumber" id="insaneNum"></p>
-        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+          <div class="bkndBoxRight">
+            <p style="font-size: 14px">Days Completed</p>
+            <p class="bigNumber" id="insaneNum"></p>
+            <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+          </div>
         </div>
-    </div>
 
-  <div class="relaxBox">
-        <a href="surprise.html"><img src="./assets/surprise1.jpg" alt="surprised woman" class="programImg"></a>
-        <p class= "choiceHead1" id="surprise1"></p>
-        <p class="subHead">What a rollercoaster...but hey, thrills are what we do!</p>
-        
-        <div class="bkndBoxRight"><p style="font-size: 14px">Days Completed</p>
-        <p class="bigNumber" id="surpriseNum"></p>
-        <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+        <div class="relaxBox">
+          <a href="surprise.html"
+            ><img
+              src="./assets/surprise1.jpg"
+              alt="surprised woman"
+              class="programImg"
+          /></a>
+          <p class="choiceHead1" id="surprise1"></p>
+          <p class="subHead">
+            What a rollercoaster...but hey, thrills are what we do!
+          </p>
+
+          <div class="bkndBoxRight">
+            <p style="font-size: 14px">Days Completed</p>
+            <p class="bigNumber" id="surpriseNum"></p>
+            <p style="font-size:.75vw">REWARD AT 5 DAYS</p>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
 
-    </div> 
-
-
-    <br>
+    <br />
     <footer>
-
-        <div class="row startbanner justify-content-md-center">
-            <div class="col-md-8">
-                <h4 style=text-align:center >Put the inspirational quote here?</h4>
-                <p style=text-align:center >It always helps to have some motivational help.</p>
-            </div>
-        
+      <div class="row startbanner justify-content-md-center">
+        <div class="col-md-8">
+          <h4 style="text-align:center" id="quote"></h4>
+          <p style="text-align:center">
+            It always helps to have some motivational help.
+          </p>
         </div>
-        <div class="row justify-content-md-center footerlinks">
-            <div class="col-md-2">
-                <p>FAQ</p>
-            </div>
-            <div class="col-md-2">
-                <p>CONTACT US</p>
-            </div>
-            <div class="col-md-2">
-                <p>TRAINER CREW</p>
-            </div>
-            <div class="col-md-2">
-                <p>SAFETY</p>
-            </div>
+      </div>
+      <div class="row justify-content-md-center footerlinks">
+        <div class="col-md-2">
+          <p>FAQ</p>
         </div>
-        <div class="disclaimer">© 2020 No-Brainer Trainer. All Rights Reserved</div>
-
+        <div class="col-md-2">
+          <p>CONTACT US</p>
+        </div>
+        <div class="col-md-2">
+          <p>TRAINER CREW</p>
+        </div>
+        <div class="col-md-2">
+          <p>SAFETY</p>
+        </div>
+      </div>
+      <div class="disclaimer">
+        © 2020 No-Brainer Trainer. All Rights Reserved
+      </div>
     </footer>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="js/programscript.js"></script>
-        <script src="js/index.js" type="text/javascript"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="js/programscript.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+  </body>
 </html>
