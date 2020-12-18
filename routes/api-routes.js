@@ -60,8 +60,18 @@ app.get("/api/Users/me", (req, res) => {
     req.user
   )
 }) 
-};
 
+app.post('/api/completeWorkout/:userId', (req, res) => {
+  console.log('hit!!!!!')
+  console.log(req.body)
+  const { columnToUpdate } = req.body
+  db.User.update({ relax: req.body.relax }, { where: { id: req.params.userId }}).then(res => {
+    
+    console.log('user updated')
+  })
+  res.send('success')
+})
+};
 
 
 
