@@ -62,7 +62,7 @@ $(document).ready(() => {
     document.getElementById("surprise1").innerHTML = [surprise];
     console.log("its working!");
   };
-  window.onload();
+  //window.onload();
 
   updateNums();
 
@@ -74,7 +74,7 @@ $(document).ready(() => {
       $("#strenuousNum").text(data.strenuous);
       $("#insaneNum").text(data.nightmare);
       $("#surpriseNum").text(data.anythingGoes);
-      // console.log(data);
+      console.log("Data!!!! ", data);
     });
   }
 
