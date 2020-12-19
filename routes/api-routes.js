@@ -53,7 +53,15 @@ module.exports = function(app) {
   });
 
   app.get("/api/Users/me", (req, res) => {
-    res.json(req.user);
+    console.log("Value of user ", req.user)
+    db.User.findOne ({
+      where:{
+        id:req.user.id
+      }
+    }).then(function(results){
+      res.json(results);
+      console.log("the results are ", results)
+    })
   });
 
   app.get("/api/Relaxes", (req, res) => {
